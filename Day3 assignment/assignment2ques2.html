@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 2 </title>
+</head>
+<body>
+	<h2>Difference between var,const,let</h2>
+	<h3>press f12</h3>
+	<h4>var</h4>
+	<p>1)Whenever a variable is declared as var it have gloabal scope  </p>
+	<p>2)var is global</p>
+	<p>3)var can be initialized anywhere</p>
+	<h4>let</h4>
+	<p>2)When a variable is declared as let it have local scope <p>
+	<p>2)let is block bound</p>
+	<p>3)can be initialized anywhere </p>
+	<h4>const</h4>
+	<p>1)const varibales are global</p>
+	<p>2)must be initialzed at declaration time only<p> 
+	<script type="text/javascript">
+		var a =10;
+		console.log("value of var a",a);
+		var b=3;
+		{	let b=15;
+			console.log("inside let b have the value 15",b);
+		}
+		console.log("outside let 'b' will have value 3",b);
+		const c=6;
+		console.log("value of const c",c);
+		/*c=4;	{this will give error} 
+		console.log(c);
+		const d;   {initialzation expected }
+		console.log(d); */
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		<h3>Assignment 2</h3>
+	</title>
+</head>
+<body>
+	<h4>Explore various console functions:-</h4>
+	<h4>Press f12 to see them....</h4>
+	<p>1)console.log ():- It is used to print our message on console</p>
+	<p>2) console.time():- It starts the timer 
+		console.timeEnd():-It calculates the time taken</p>
+	<p>3)console.table():- It is used to print content in the form of a table </p>
+	<p>4)console.error():- It prints an error message to the console</p>
+	<p>5)console.warn():- It prints a warning to console</p>
+	<p>6)console.clear():- It will clear the console</p>
+	<p>7)console.assert():- It is used to print a error message whenever an assertion is false </p>
+
+	<script type="text/javascript">
+		
+	console.log("Hii i am console.log");
+
+	console.time('time taken')
+	console.timeEnd('time taken')
+
+	var a={name:'abc',language:'JS'};
+	var b={name:'xyz',language:'c++'};
+	console.table({a,b});
+
+	console.error('its an error'); 
+
+	console.warn('its a warning');
+
+	/*6)console.clear():-it will clear the console
+	
+	console.clear();
+	
+	putting it in comments otherwise it will clear the console..*/
+	
+	var x=3;
+	var y=4;
+	var d=x>y;
+	console.assert(d);
+
+	</script>
+</body>
+</html>
